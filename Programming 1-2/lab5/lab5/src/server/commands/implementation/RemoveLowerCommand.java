@@ -1,0 +1,39 @@
+package server.commands.implementation;
+
+import client.Console.Ask;
+import client.Console.Console;
+import server.common.Clases.Person;
+import server.common.Interfaces.Command;
+import server.managers.CollectionManager;
+
+import java.util.HashSet;
+
+public class RemoveLowerCommand implements Command {
+   private Console console;
+   private CollectionManager cm;
+
+    public RemoveLowerCommand(Console console, CollectionManager cm) {
+        this.console = console;
+        this.cm = cm;
+    }
+
+
+    @Override
+    public void execute() {
+        try{
+            Person p = Ask.askPerson(console);
+            HashSet<Person> toRemove = new HashSet<>();
+            for (Person i : cm.getSet()) {
+                if (p.compareTo(i) > 0) {
+                    toRemove.add(i);
+                }
+            }
+            int c = 0;
+            for (Person i : toRemove) {
+                cm.removeById(i.getId());
+                c += 1;
+            }
+            console.println("Удаление завершено, удалено " + c + " объектов");
+        } catch (Ask.AskBreak e) {}
+    }
+}

@@ -1,0 +1,83 @@
+ORG 0x0
+V0: WORD $INT0, 0x1A0
+V1: WORD $DEFAULT, 0x180
+V2: WORD $DEFAULT, 0x180
+V3: WORD $DEFAULT, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+
+DEFAULT: IRET
+
+NP: WORD 0x0001, 0x0002, 0x0003, 0x0000 ; Номер программы
+SNP: WORD $NP
+PROGPOINT: WORD $NP
+SPAINT: WORD $PAINT
+POINTER: WORD $PAINT ; POINTER FOR P2
+EVENN: WORD 0x1 ; FOR P2
+PATT: WORD 0xFF00
+
+
+
+INT0:
+IN 0x0
+LD (PROGPOINT)+
+BNE TRANS
+LD SNP
+ST PROGPOINT
+JUMP INT0
+TRANS:
+CMP #0x1
+BEQ P1
+CMP #0x2
+BEQ P2
+CMP #0x3
+BEQ P3
+
+P1: IN 0x6
+OUT 0x2
+IRET
+
+P2:
+; добавить проверку вывода чётно-нечётной строки
+LD $EVENN
+CMP #0x2
+BEQ S2
+
+S1: LD (POINTER)
+AND PATT
+BNE SE1
+LD $SPAINT ; Адрес PAINT
+ST $POINTER
+JUMP S1 ; нужно установить POINTER в начало списка
+SE1: SWAB
+OUT 0x10
+LD #0x2
+ST $EVENN
+IRET
+
+S2: LD (POINTER)+
+AND #0xFF
+OUT 0x10
+LD #0x1
+ST $EVENN
+IRET ; Добавить проверку статуса чётного-нечётного символа
+
+P3: IN 0x6
+ASL
+OUT 0x2
+IRET
+
+
+START: DI
+CLA
+LD #0x28 ; устанавливаем обновление флага готовности раз в 1 сек
+OUT 0x0
+LD #0x8
+OUT 0x1
+
+PROG: EI
+JUMP $PROG
+
+PAINT: WORD 0x8142, 0x2418, 0x1824, 0x4281, 0x0

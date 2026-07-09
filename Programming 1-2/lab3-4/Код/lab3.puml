@@ -1,0 +1,215 @@
+@startuml
+skinparam classBackgroundColor #F8F8FF
+skinparam classBorderColor #8A2BE2
+skinparam classArrowColor #6A5ACD
+skinparam ArrowColor #6A5ACD
+skinparam classFontName Arial
+skinparam classFontSize 14
+skinparam classAttributeFontColor #444444
+skinparam classAttributeFontSize 12
+skinparam roundCorner 15
+skinparam shadowing true
+skinparam linetype ortho
+
+'КЛАССЫ
+
+class Window{
++isOpen: bool
++toggle(): void
+}
+
+abstract class Character implements interfaces.Move{
+~name: String
+~hold: ArrayList<Item>
+~mood: Mood
+~location: Room
+~hiden: bool
+
++Character(name: String, mood: Mood, location: Room)
++Character(name: String, location: Room)
++getName(): String
++getHold(): ArrayList<Item>
++getMood(): Mood
++getLocation(): String
++hear(sound: SoundType): String
++eat(Food: food): void
++take(item: Item, location: Room): void
++give(item: Item, Character): void
++put(item: Item, location: Room)
++show(Item item, Character pers): void
++hide(): void
++unhide(): void
++walkTo(Room r): void
++runTo(Room r): void
++chase(Character c): void
++walkToWindow(): void
++plantedPlant(Plant p, PlantPot pot): void
++unPlantedPlant(PlantPot pot): void
++changeMood(mood: Mood): void
++makeSounds(sound: SoundType): void
+}
+
+class Room{
+~area: double
+~doorCount: int
+~windows: ArrayList<Window>
+~furniture: ArrayList<>
+
++Room(area: double, doorCount: int, winCount: int): void
++Room(area: double, winCount: int): void
++Room(area: double, doorCount: int): void
++Room(area: double): void
++getArea():double
++getDoorCount(): int
++getWindows(): ArrayList<Window>
+}
+
+abstract class Item {
+~owner: Character
+~name: String
+
++Item(owner: Character, name: String)
++Item(name: String)
++getName(): String
++getOwner(): String
+}
+
+
+class Food extends Item{
+-eaten: bool
++Food(owner: String, name: String, eaten: bool)
++Food(owner: String, name: String)
+}
+
+class Seed extends Item{
++Seed(name: String, owner: Character)
++Seed(name: String, location: Room)
+}
+
+class knife{
++cut(food: Food)
+}
+
+class Carlson implements interfaces.Flyable{
+-height: double
+-propeller: bool
+-onAir: bool
+
++Carlson(name: String, mood: Mood, location: Room)
++Carlson(name: String, location: Room)
++toggleProp(): void
++ isPropeller(): bool
+}
+
+class Malish{
++Malysh(name: String, mood: Mood, location: Room)
++Malysh(name: String, location: Room)
+}
+
+
+class Flat{
+-rooms: ArrayList<Room>
+-area: int
+
++Flat(int area): void
++Flat(int area, Room... initialRooms): void
++Flat(List<Room> rooms, int area): void
++getArea(): int
++addRoom(Room room): void
++getCountRooms(): int
+
+}
+
+enum Color{
+    WHITE,
+    RED,
+    ORANGE,
+    YELLOW,
+    GREEN,
+    BLUE,
+    PURPULE;
+    -saturation: int
+
+    +Color(int saturation): void
+    +getSaturation(): int
+}
+
+record Plant{
+-name: String
+}
+
+class PlantPot{
++location: Room
+-isFill: bool
+-isPlanted: bool
+
++fill(): void
++unfill(): void
++planted(p: Plant): void
++get_fill()
+}
+
+class Begonia{
++type: String
+}
+
+enum SoundType{
+    MUNCH,
+    SMACK,
+    CHEER,
+    CLUCK,
+    SQUELCH
+    -title: String
+    -volume: int
+
+    +getTitle(): String
+    +getVolume(): int
+    +setVolume(int v): void
+}
+
+package interfaces{
+    interface Move{
+    +walkTo(room: Room): void
+    +runTo(room: Room):void
+    +chase(character: Character): void
+    }
+    interface Flyable{
+    +TakeWing(): void
+    +Up(height: double): void
+    +Down(height: double): void
+
+    }
+}
+
+'ENUM
+enum Mood{
+    NEUTRAL,
+    HAPPY,
+    SAD,
+    ARGUMENTATIVE,
+    INTERESTED,
+    -title: String
+
+    +Mood(title: String)
+    +getTitle(): String
+}
+
+'ВЗАИМОДЕЙТСВИЕ
+
+Carlson --|> Character
+Malish --|> Character
+Character --> Mood
+Character --> SoundType
+
+Begonia --|> Plant
+PlantPot *-- Room
+PlantPot --> Plant
+Color --> Plant
+
+knife --|> Item
+Item --> Character
+
+
+Flat *-- Room
+Room *-- Window
+@enduml
