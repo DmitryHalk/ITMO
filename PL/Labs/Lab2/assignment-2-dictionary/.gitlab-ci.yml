@@ -1,0 +1,18 @@
+image: generic-c
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - make
+
+test:
+  stage: test 
+  script:
+    - make test
