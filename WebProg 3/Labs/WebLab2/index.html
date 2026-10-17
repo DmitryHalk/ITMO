@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LolLabaPoWebu</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+<header>
+  <p id="FIO"> <a class="yel_text" href="https://isu.ifmo.ru/pls/apex/f?p=2437:7:104703426743199:::::" target="_blank">ФИО: Халкечев Дмитрий Артурович</a></p>
+  <p class="yel_text">Группа: P3209</p>
+  <p>Вариант: 12651</p>
+  <div id="clock"></div>
+</header>
+
+
+
+
+<div class="canvas">
+  <canvas id="myCanvas" width="300" height="300"></canvas>
+</div>
+
+<form>
+  <div id="x">X:
+  <span id="text_x"></span> <br>
+  </div>
+  <div>
+    <label for="y">Y:</label>
+    <input id="y" type="text" pla ceholder="values (-3,...,3)" required>
+    <div id="error"></div>
+  </div>
+  <div> <label for="R">R:</label>
+    <select id="R"  required>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+  <div>
+    <input id="send" type="submit" value="Submit">
+    <span id="status"></span>
+  </div>
+</form>
+
+
+<div class="table" id="table_">
+  <table id="tableShot">
+    <tbody id="tbodyShot">
+    <tr>
+      <th colspan="6">Values access shot</th>
+    </tr>
+    <tr style="text-align: center">
+      <td>№</td>
+    <td> X</td>
+    <td>Y</td>
+    <td>R</td>
+      <td>time/date</td>
+      <td>Popadanie</td>
+    </tr>
+    </tbody>
+  </table>
+  <div><input  id="button_clear" type="button" value="Clear"><br></div>
+</div>
+
+<!--<form>-->
+<!--  <input  id="remove_text" type="text" placeholder="removeByNumberRow">-->
+<!--  <input type="button" id="remove_btn" value="OK">-->
+<!--</form>-->
+
+
+
+<!--<div id="clock"></div>-->
+
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
