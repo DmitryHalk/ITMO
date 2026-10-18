@@ -147,30 +147,19 @@ function set_x(key){x = Number(key.value);
 text_x.innerHTML = `${key.value}`;
 }
 
-function shot() {
-  const y = Number(document.getElementById("y").value.replace(",", "."));
-  const R = Number(document.getElementById("R").value);
+async function shot() {
+  const y = document.getElementById("y").value.replace(",", ".");
+  const R = document.getElementById("R").value;
   const status = document.getElementById("status");
-  if (x === -5 || x === -4 || x === -3 || x === -3 || x === -2 || x === -1 || x === 0 || x === 1 || x === 2 || x === 3) {
-    if ((x >= 0 && y >= 0) && (x ** 2 + y ** 2 <= R ** 2)) {
-      status.innerHTML = "Попал!"
-      tableShot(x, y, R, true)
-      return true;
-    } else if ((x <= 0 && y >= 0) && (y <= x + R)) {
-      status.innerHTML = "Попал!"
-      tableShot(x, y, R, true)
-      return true;
-    } else if ((x <= 0 && y <= 0) && (x >= -R / 2 && y >= -R)) {
-      status.innerHTML = "Попал!"
-      tableShot(x, y, R, true)
-      return true;
-    }
-  } else {let text_x = document.getElementById("text_x");
-  text_x.innerHTML = `Неккоректное значение x`;
-  return false}
-  status.innerHTML = "Не попал!"
-  tableShot(x, y, R, false)
-  return false;
+  try {
+    const resp = await fetch(`fcgi-bin/backend-1.0-SNAPSHOT.jar?x=${x}&y=${y}&r=${R}`);
+    const data = await resp.json();
+    if (!resp.ok) { status.innerHTML = "Ошибка: " + data.reason; return; }
+    status.innerHTML = data.result ? "Попал!" : "Не попал!";
+    tableShot(x, y, R, data.result, `${data.currentTime} (${data.executionTimeMs} ms)`);
+  } catch (e) {
+    status.innerHTML = "Сервер недоступен";
+  }
 }
 
 function get_time() {
@@ -196,10 +185,8 @@ function get_date() {
 
 
 
-function tableShot(x,y,R, ok) {
+function tableShot(x,y,R, ok, dt) {
   const table = document.getElementById("tbodyShot");
-  const ts = Date.now();
-  const dt = new Date(ts).toLocaleString("ru-RU");
   let num_row = localStorage.length;
   num_row += 1;
   table.innerHTML += `<tr>

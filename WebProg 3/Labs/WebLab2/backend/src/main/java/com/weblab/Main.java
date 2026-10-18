@@ -61,7 +61,7 @@ public class Main {
 
     private static final String HTTP_RESPONSE = """
                Status: 200 OK
-               Content-Type: aplication/json
+               Cntent-Type: aplication/json
                Content-Lenght: %d
                
                %s
