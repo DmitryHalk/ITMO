@@ -5,62 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb4183e1-7565-4f06-816b-052f9b15b4d1" name="Changes" comment="fixed">
-      <change beforePath="$PROJECT_DIR$/../../../AK 3/Lab3/Scheme/Scheme_Orginal.drawio.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab1/report/~$report.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/WebLab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/libraries/fastcgi_lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/lib/fastcgi-lib.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/src/main/java/com/weblab/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/src/main/java/com/weblab/Params.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/src/main/java/com/weblab/ValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/backend-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/classes/com/weblab/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/classes/com/weblab/Params.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/classes/com/weblab/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.idea/WebLab1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/img/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/js/vendor/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/webpack.common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/webpack.config.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/frontend/webpack.config.prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/httpd-root/conf/httpd-conf.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/httpd-root/conf/httpd.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/report/report.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebLab2/report/report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Летучки/Snake/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Летучки/Snake/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +175,7 @@
       <workItem from="1792519749352" duration="1175000" />
       <workItem from="1792521236815" duration="2930000" />
       <workItem from="1793616982507" duration="1926000" />
-      <workItem from="1793695137020" duration="3232000" />
+      <workItem from="1793695137020" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <option name="closed" value="true" />
