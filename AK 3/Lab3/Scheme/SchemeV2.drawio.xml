@@ -330,11 +330,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QLCYX9On5bjcQFPnhRU1-83" connectable="0" parent="yK8ZOUECnSL21c1s2P-d-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelPadding;labelBackgroundColor=default;" value="[31:0]" vertex="1">
-          <mxGeometry relative="1" x="-0.9882" as="geometry">
-            <mxPoint x="487" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QLCYX9On5bjcQFPnhRU1-92" connectable="0" parent="yK8ZOUECnSL21c1s2P-d-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelPadding;labelBackgroundColor=default;" value="[31:0]" vertex="1">
           <mxGeometry relative="1" x="-0.9488" y="3" as="geometry">
             <mxPoint as="offset" />
