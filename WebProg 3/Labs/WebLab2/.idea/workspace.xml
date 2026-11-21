@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb4183e1-7565-4f06-816b-052f9b15b4d1" name="Changes" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/WebLab2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/libraries/fastcgi_lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebLab2 — копия/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/lib/fastcgi-lib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/src/main/java/com/weblab/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/src/main/java/com/weblab/Params.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/src/main/java/com/weblab/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/backend-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/backend-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/classes/com/weblab/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/classes/com/weblab/Params.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/classes/com/weblab/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.idea/WebLab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/img/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/js/vendor/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/webpack.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/webpack.config.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/frontend/webpack.config.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/httpd-root/conf/httpd-conf.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/httpd-root/conf/httpd.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/report/report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2 — копия/report/report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebLab2old/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebLab2old/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DmitryHalk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DmitryHalk/ITMO&quot;,
+    &quot;accountId&quot;: &quot;e0fe0102-1ef9-4d9b-bef4-bf88e288ae96&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.208562129328088" />
+      <entry key="MS500" value="6.036145420409315" />
+      <entry key="S2" value="13.736768904221382" />
+      <entry key="S5" value="21.282479319754543" />
+      <entry key="S10" value="28.291392461990338" />
+      <entry key="S30" value="37.31538941127249" />
+      <entry key="S60" value="41.0166460675018" />
+      <entry key="M2" value="44.53511174425847" />
+      <entry key="M5" value="53.2501293985911" />
+      <entry key="M10" value="62.08628388556914" />
+      <entry key="M15" value="66.68800030458398" />
+      <entry key="M30" value="72.53655815564696" />
+      <entry key="H1" value="76.0393936207265" />
+      <entry key="H2" value="77.95869044987849" />
+      <entry key="H4" value="78.96359241944661" />
+      <entry key="D1" value="79.8250335958956" />
+      <entry key="W1" value="79.97494956071557" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.696681414599132E-97" />
+      <entry key="S5" value="3.246596938164773E-39" />
+      <entry key="S10" value="6.466663144131007E-20" />
+      <entry key="S30" value="6.401220206174449E-7" />
+      <entry key="S60" value="0.001398878510461219" />
+      <entry key="M2" value="0.07177403731924054" />
+      <entry key="M5" value="0.7926254469519255" />
+      <entry key="M10" value="1.7774502693073966" />
+      <entry key="M15" value="2.328348253631078" />
+      <entry key="M30" value="3.051187027007237" />
+      <entry key="H1" value="3.4933583641837003" />
+      <entry key="H2" value="3.7380598453619656" />
+      <entry key="H4" value="3.8668007316533295" />
+      <entry key="D1" value="3.9774839906454966" />
+      <entry key="W1" value="3.9967755987517526" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.1060091121971958" />
+      <entry key="MS500" value="5.980092976809028" />
+      <entry key="S2" value="13.704191083022494" />
+      <entry key="S5" value="21.258484374184604" />
+      <entry key="S10" value="28.271614633037387" />
+      <entry key="S30" value="37.30310001673027" />
+      <entry key="S60" value="41.00720627240634" />
+      <entry key="M2" value="44.5855847806122" />
+      <entry key="M5" value="53.99369549958873" />
+      <entry key="M10" value="63.815350704186926" />
+      <entry key="M15" value="68.97565353506637" />
+      <entry key="M30" value="75.56201210894308" />
+      <entry key="H1" value="79.51827077223987" />
+      <entry key="H2" value="81.68906733131095" />
+      <entry key="H4" value="82.82643588197949" />
+      <entry key="D1" value="83.8018415010982" />
+      <entry key="W1" value="83.9716281646471" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3KrQU1ieQqdjVPX5WcJ96SvZH2X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/ITMO/WebProg 3/Labs/WebLab2 — копия&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/User/AppData/Roaming/JetBrains/WebStorm2026.2/node/versions/24.22.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/ITMO/WebProg 3/Labs/WebLab2/backend/src/main/java/org/summer/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2026.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\ITMO\WebProg 3\Labs\WebLab2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\ITMO\WebProg 3\Labs\WebLab2\httpd-root\mutex-dir" />
+      <recent name="C:\Users\User\ITMO\WebProg 3\Labs\WebLab2\backend" />
+      <recent name="C:\Users\User\ITMO\WebProg 3\Labs\WebLab2\lib" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb4183e1-7565-4f06-816b-052f9b15b4d1" name="Changes" comment="" />
+      <created>1792313219604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792313219604</updated>
+      <workItem from="1792342594539" duration="560000" />
+      <workItem from="1792415612795" duration="2388000" />
+      <workItem from="1792444182028" duration="239000" />
+      <workItem from="1792499631485" duration="112000" />
+      <workItem from="1792500060594" duration="841000" />
+      <workItem from="1792519749352" duration="1175000" />
+      <workItem from="1792521236815" duration="2930000" />
+      <workItem from="1793616982507" duration="1926000" />
+      <workItem from="1793695137020" duration="8610000" />
+      <workItem from="1793727703822" duration="2711000" />
+      <workItem from="1794832701837" duration="1739000" />
+      <workItem from="1794834538498" duration="1733000" />
+      <workItem from="1794866027524" duration="989000" />
+    </task>
+    <task id="LOCAL-00001" summary="first version">
+      <option name="closed" value="true" />
+      <created>1792345146092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792345146092</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit to work">
+      <option name="closed" value="true" />
+      <created>1792355439037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792355439037</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed">
+      <option name="closed" value="true" />
+      <created>1792355474436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792355474436</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed">
+      <option name="closed" value="true" />
+      <created>1792355858985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792355858985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first version" />
+    <MESSAGE value="edit to work" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+  </component>
+</project>
